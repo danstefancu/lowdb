@@ -1,10 +1,10 @@
 import test from 'ava'
-import fs from 'fs'
-import tempy from 'tempy'
+import * as fs from 'fs'
+import * as tempy from 'tempy'
 
-import { JSONFileSync } from './adapters/JSONFileSync.js'
-import { LowSync } from './LowSync.js'
-import { MissingAdapterError } from './MissingAdapterError.js'
+import { JSONFileSync } from './adapters/JSONFileSync'
+import { LowSync } from './LowSync'
+import { MissingAdapterError } from './MissingAdapterError'
 
 function createJSONFile(obj: unknown): string {
   const file = tempy.file()

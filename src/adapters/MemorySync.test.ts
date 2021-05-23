@@ -1,6 +1,6 @@
 import test from 'ava'
 
-import { MemorySync } from './MemorySync.js'
+import { MemorySync } from './MemorySync'
 
 test('should read and write', (t) => {
   const obj = { a: 1 }

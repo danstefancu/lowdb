@@ -1,7 +1,7 @@
 import test from 'ava'
-import tempy from 'tempy'
+import * as tempy from 'tempy'
 
-import { JSONFileSync } from './JSONFileSync.js'
+import { JSONFileSync } from './JSONFileSync'
 
 test('should read and write', (t) => {
   const obj = { a: 1 }

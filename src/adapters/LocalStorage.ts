@@ -1,4 +1,4 @@
-import { SyncAdapter } from '../LowSync.js'
+import { SyncAdapter } from '../LowSync'
 
 export class LocalStorage<T> implements SyncAdapter<T> {
   private key: string

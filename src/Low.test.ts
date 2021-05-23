@@ -1,11 +1,11 @@
 import test from 'ava'
-import fs from 'fs'
-import lodash from 'lodash'
-import tempy from 'tempy'
+import * as fs from 'fs'
+import * as lodash from 'lodash'
+import * as tempy from 'tempy'
 
-import { JSONFile } from './adapters/JSONFile.js'
-import { Low } from './Low.js'
-import { MissingAdapterError } from './MissingAdapterError.js'
+import { JSONFile } from './adapters/JSONFile'
+import { Low } from './Low'
+import { MissingAdapterError } from './MissingAdapterError'
 
 function createJSONFile(obj: unknown): string {
   const file = tempy.file()

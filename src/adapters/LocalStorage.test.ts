@@ -1,6 +1,6 @@
 import test from 'ava'
 
-import { LocalStorage } from './LocalStorage.js'
+import { LocalStorage } from './LocalStorage'
 
 const storage: { [key: string]: string } = {}
 

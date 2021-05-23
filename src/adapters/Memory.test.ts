@@ -1,6 +1,6 @@
 import test from 'ava'
 
-import { Memory } from './Memory.js'
+import { Memory } from './Memory'
 
 test('should read and write', async (t) => {
   const obj = { a: 1 }
