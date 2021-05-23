@@ -1,6 +1,6 @@
 {
   "name": "lowdb",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Tiny local JSON database for Node, Electron and the browser",
   "exports": "./lib/index.js",
   "files": [
