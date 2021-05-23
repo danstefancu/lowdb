@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.5](https://github.com/typicode/lowdb/compare/v2.1.4...v2.1.5) (2021-05-23)
+
+
+### Bug Fixes
+
+* node fs and path imports ([59173b4](https://github.com/typicode/lowdb/commit/59173b47b3304d62dc1ae52809cf0047647f99c4))
+
 ### [2.1.4](https://github.com/typicode/lowdb/compare/v2.1.3...v2.1.4) (2021-05-23)
 
 ### [2.1.3](https://github.com/typicode/lowdb/compare/v2.1.2...v2.1.3) (2021-05-23)
