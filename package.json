@@ -15,6 +15,7 @@
     "build": "del-cli lib && tsc",
     "prepublishOnly": "npm run build",
     "postversion": "git push && git push --tags && npm publish",
+    "preprepare": "npm run build",
     "prepare": "husky install",
     "release": "standard-version --no-verify"
   },
