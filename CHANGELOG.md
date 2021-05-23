@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.6](https://github.com/typicode/lowdb/compare/v2.1.5...v2.1.6) (2021-05-23)
+
+
+### Bug Fixes
+
+* tsconfig fir build on install ([a1efc4b](https://github.com/typicode/lowdb/commit/a1efc4b5c0152ed1a421d2916be963234727a9e7))
+
 ### [2.1.5](https://github.com/typicode/lowdb/compare/v2.1.4...v2.1.5) (2021-05-23)
 
 
