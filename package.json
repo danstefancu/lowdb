@@ -3,19 +3,13 @@
   "version": "2.1.3",
   "description": "Tiny local JSON database for Node, Electron and the browser",
   "exports": "./lib/index.js",
-  "files": [
-    "lib",
-    "LICENSE-MIT",
-    "LICENSE-PARITY",
-    "LICENSE-PATRON"
-  ],
   "scripts": {
     "test": "ava",
     "lint": "eslint src --ext .ts --ignore-path .gitignore",
     "build": "del-cli lib && tsc",
     "prepublishOnly": "npm run build",
     "postversion": "git push && git push --tags && npm publish",
-    "preinstall": "tsc",
+    "postinstall": "tsc",
     "prepare": "husky install",
     "release": "standard-version --no-verify"
   },
